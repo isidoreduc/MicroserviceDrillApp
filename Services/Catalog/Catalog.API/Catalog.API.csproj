@@ -2,18 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>fae33fe6-53f5-4bff-a8f3-c0201c49189d</UserSecretsId>
+    <UserSecretsId>fcdc0425-bb0e-453e-b8c1-6fa6c8c5aa9f</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <DockerfileContext>.</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Services\Catalog\Catalog.API\Controllers\" />
   </ItemGroup>
 
 
